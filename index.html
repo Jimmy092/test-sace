@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Textract File Upload</title>
+    <style>
+        #resultContainer {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Textract File Upload</h1>
+    
+    <input type="file" id="fileInput" accept=".pdf, .jpg, .jpeg, .png" />
+    <button onclick="uploadFile()">Upload</button>
+
+    <div id="resultContainer">
+        <h2>Extracted Text:</h2>
+        <pre id="extractedText"></pre>
+    </div>
+
+    <!-- Include your external script file -->
+    <script src="js/uploadScript.js"></script>
+</body>
+</html>
