@@ -10,6 +10,14 @@
       "StackName": "amplify-saceaws-dev-181829",
       "StackId": "arn:aws:cloudformation:eu-north-1:591421659807:stack/amplify-saceaws-dev-181829/71c89fd0-b0a5-11ee-9f88-062eebebf6a0",
       "AmplifyAppId": "d6689hr95yxhk"
+    },
+    "categories": {
+      "auth": {
+        "saceaws40cec095": {}
+      },
+      "function": {
+        "saceaws6fb794c0": {}
+      }
     }
   }
 }
